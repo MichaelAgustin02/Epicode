@@ -1,0 +1,123 @@
+nav {
+    
+    background-color: #add8e6;
+    color: aliceblue;
+    width: 97.5%; 
+    height: 85%;
+    margin: 20px auto 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+
+  }
+.contenuto {
+    width: 95%; 
+    height: 85%;
+    margin: 20px auto 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+.titolotabella{
+
+    text-align: center;
+    font-style: italic;
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td, th {
+    border: 1px solid #ddd; 
+    padding: 8px;
+    text-align: center; 
+}
+
+tr:nth-child(odd):not(:first-child) {
+    background-color: #f0f0f0; 
+}
+
+tr:first-child {
+    background-color: blue;
+    color: #fff;
+}
+
+.video-container {
+    width: 60%; 
+    margin: 0 auto; 
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+video {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.blog {
+
+    background-color: #f0f0f0;
+    border: 2px solid #ddd;
+    padding: 20px;
+    position: relative; 
+}
+
+.blog h2{
+
+    background-color: #f0f0f0; 
+    border: 2px solid #ddd;  
+    padding: 20px;
+    position: absolute; 
+    top: -40px; 
+    left: 20px; 
+    padding: 0 10px; 
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+
+h2 {
+    text-align: center; 
+}
+
+.articolo{
+    background-color: #f0f0f0;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative; 
+}
+
+.articolo a{
+    color: aqua;
+}
+
+.data{
+    position: absolute; /* Posizione assoluta rispetto al contenitore */
+    bottom: 0; /* Posiziona il paragrafo in basso */
+    right: 0; /* Posiziona il paragrafo a sinistra */
+    padding: 10px; /* Aggiunge spaziatura interna al paragrafo */
+}
+
+footer {
+    background-color: #add8e6;
+    color: aliceblue;
+    width: 97.5%; 
+    height: 85%;
+    margin: 20px auto 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+
+}
